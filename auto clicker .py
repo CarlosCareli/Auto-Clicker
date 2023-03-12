@@ -2,9 +2,6 @@ import pyautogui as pg
 import time
 from pynput import keyboard
 
-
-pg.FAILSAFE = True
-
 def stop_loop(key):
     if key == keyboard.Key.esc:
         return False  
